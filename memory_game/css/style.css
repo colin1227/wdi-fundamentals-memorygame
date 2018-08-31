@@ -1,0 +1,84 @@
+h1 { 
+	font-family: "Raleway", san-serif;
+    color: #FFFFFF;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-size: 45px;
+    margin:0;
+    padding: 20px 20px 15px 20px;
+}
+   
+ h2 { 
+	font-family: "Raleway", san-serif;
+	color: #0D2C40;
+	letter-spacing: 1px;
+    font-weight: 600;
+    font-size: 20px;
+}
+a {
+	font-family: "Raleway", san-serif;
+	color: white;
+	letter-spacing: 1px;
+	font-weight: 600;
+	font-size: 18px;
+	margin: 0px 20px;
+	text-decoration: none;
+
+}
+#inst {
+	font-family: "Droid Serif", san-serif;
+	line-height: 26px;
+	font-size:18px;
+}
+header{
+	text-align: center;
+	background-color: #F15B31;
+	color: #FFFFFF
+	
+}
+body {
+	text-align: center;
+	margin: 0;
+}
+nav {
+	background-color: #00A6B3;
+    color: white;
+    padding:20px 0px;
+}
+main {
+	width: 850px;
+	margin: 35px auto;
+}
+
+img {
+	margin: 40px 8px 0px 8px;
+}
+footer {
+	text-transform: uppercase;
+	background: #0D2C40;
+	color: white;
+	font-size:14px;
+	letter-spacing: .08em;
+	font-weight: 500;
+}
+.Copyright {
+	float:left;
+}
+.message {
+	float: right;
+}
+.clearfix:after {
+visibility: hidden;
+display: block;
+content: " ";
+clear: both;
+height: 0;
+font-size: 0;
+}
+.name {
+	color: #F15B31;
+	font-weight: 700;
+}
+a:hover {
+color:white;
+}
