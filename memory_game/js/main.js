@@ -22,7 +22,7 @@ for(i = 0; i < cardsInPlay.length;i++){
   console.log("User fliped " + cards[i])
 };
 
-if (cardsInPlay.length ===2 && (cards[0] === cards[1]|| cards[2]=== cards [3])){
+if (cardsInPlay.length ===2 && cards[0] === cards[1]|| cards[2]=== cards [3]){
   alert("Congrats you found a match");
 }
 
