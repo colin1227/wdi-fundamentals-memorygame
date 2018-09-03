@@ -82,3 +82,10 @@ font-size: 0;
 a:hover {
 color:white;
 }
+
+.game {
+	border-style: ridge;
+	border:4px #F15B31;
+	outline-color: 1px #00A6B3;
+
+}
