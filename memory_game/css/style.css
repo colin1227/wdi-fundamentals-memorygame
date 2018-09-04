@@ -54,6 +54,10 @@ img {
 	margin: 40px 8px 0px 8px;
 }
 footer {
+	position: fixed;
+	left: 0;
+	bottom:0;
+	width:100%;
 	text-transform: uppercase;
 	background: #0D2C40;
 	color: white;
@@ -82,10 +86,16 @@ font-size: 0;
 a:hover {
 color:white;
 }
-
 .game {
-	border-style: ridge;
-	border:4px #F15B31;
-	outline-color: 1px #00A6B3;
+    margin: 0px;
+    padding: 0px
+	border: ridge 50px #F15B31;
+}
+.sx {
+	background: #F15B31;
 
+}
+.but {
+	margin:10px;
+	
 }

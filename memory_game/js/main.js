@@ -48,15 +48,22 @@ var flipcard = function(){
     this.setAttribute('src', cards[cardId].cardImage);
 
   if(cardsInPlay.length === 2 && cardsInPlay[0] === cardsInPlay[1]){
-  alert("you found a match");
+  setTimeout(foundMatch,2000);
+  cardsInPlay = [];
+  
 }
 else if(cardsInPlay.length === 1){
 return;
 
 }else {
-  alert("Sorry, Try again");
+  setTimeout(noMatch,2000);
+  for(i = 0; i <cardsInPlay.length;i++){
+    cardElement.setAttribute('src', "images/images/back.png");
+}
+cardsInPlay = [];
 }
   };
+
 
 var createBoard = function(){
 	for(var i = 0; i < cards.length;i++){
@@ -67,6 +74,14 @@ var createBoard = function(){
 		document.querySelector('div').appendChild(cardElement);
 	};
 };
-    
+
+var foundMatch = function(){
+  alert("you found a match");
+};
+
+var noMatch = function(){
+	alert("Sorry, Try again");
+}
+
+
 createBoard();
-    
